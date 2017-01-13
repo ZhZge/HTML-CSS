@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+/** 清除内外边距 **/
+body,h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+ul,li { list-style:none;}
+a { text-decoration:none; color:#343233;}
+#jq a:hover { color:red;}
+body { font-size:12px;}
+img { border:0; display:block;}
+em { font-style:normal;}
+.fl { float:left;}
+.fr { float:right;}
+
+
+.top,.header,.nav,.banner,.contact,.footerlink,.footerlink-2,.footer { width:1000px; margin:0 auto;}
+
+#wrap-top { background:#e4e4e4;}
+.top {  height:25px; padding-top:10px; }
+.top-left { }
+.top-left ul li { float:left;}
+.top-left ul li a { display:block; padding:0 11px; background:url(../images/top-li.jpg) no-repeat right center; color:#656968; }
+.top-left ul .last a { background:none;}
+
+.top-right {}
+.language { }
+.language a { float:left; _display:inline; margin-right:19px; color:#696969;} /* 在ie6浏览器，只有浮动的块元素，才会有双倍浮向bug ， 普通的内联元素是没有这个bug的   
+
+当设置了float的时候，ie6就会把这个元素看作是有块元素特点的内联元素
+ */
+.search { margin-left:6px; width:169px;}
+.search input { float:left;}
+.search .txt { width:140px; height:20px; line-height:20px; border:0; color:#cbcac8;}
+.search .sub { width:29px; height:20px; border:0; background:url(../images/fdj.jpg) no-repeat 6px top;} 
+
+
+#wrap-header {  } 
+.header {width:984px; height:79px; padding:20px 0 0 16px; background:url(../images/header-bg.jpg) no-repeat 683px 5px;}
+
+#wrap-nav {  background:#d92b34;}
+.nav {  height:44px; background:#c8141f; }
+.nav ul { text-align:center;}
+.nav ul li { display:inline;}
+.nav ul li a { display:inline-block; color:#fff; font-weight:bold; font-size:14px; height:44px; line-height:44px; padding:0 19px;} /* 在ie6下，display:block后，默认宽度为100%,  故可换成display:inline-block */
+.nav ul li a:hover { background:orange;}
+
+#wrap-banner { background:#e6e6e6;}
+.banner { height:328px; background:green; } /* 当它里面子元素全是浮动时，高度为0。*/
+
+.b-img { width:669px; height:328px; background:url(../images/b-img.jpg);}
+.b-news { width:331px; height:328px; background:#eee;}
+.b-news ul { padding:19px 39px 0 41px;}
+.b-news ul li { border-bottom:1px dashed #d8d8d8; padding-bottom:8px; margin-bottom:9px;}
+.b-news ul li a { display:inline-block; line-height:18px;} 
+
+.jt { float:right; margin-right:1px; margin-top:3px; _padding:11px 0 0 0;}
+
+#wrap-contact { }
+.contact {  height:546px; padding-top:40px; }
+.contact h3 { height:37px; line-height:37px; border-bottom:2px solid #dfdfdf;}
+
+
+.contact-left { width:734px; height:490px;}
+.left-top { margin-top:3px; height:207px;}
+.left-img { width:269px;}
+.left-img dl dt { margin-top:19px;}
+.left-img dl dd { height:28px; line-height:28px;}
+.left-img dl dd span { display:block; width:232px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; margin:0 auto;}
+
+.news { width:423px; height:200px;}
+.news-dl { padding-top:6px; width:100%; *padding-top:19px;}
+.news-dl dl { margin-top:13px; height:61px;}
+.news-dl dl dt { width:60px; height:61px; background:#c8141f; float:left; position:relative;}
+.news-dl dl dt span { font-size:20px; color:#fff; font-weight:bold; display:block; position:absolute; top:7px; left:50%; margin-left:-11px;}
+.news-dl dl dt em { color:#fff; display:block; position:absolute; bottom:7px; left:50%; margin-left:-21px; _width:42px;}
+
+.news-dl dl dd { width:344px; height:61px; float:right;}
+.news-dl dl dd h4 { font-size:12px; height:20px; line-height:20px;}
+.news-dl dl dd p { line-height:20px;}
+
+
+.left-bottom { padding-top:42px;}
+.left-bottom ul { padding-top:20px;}
+.left-bottom ul li { height:24px; line-height:24px;}
+.left-bottom ul li a { float:left; width:216px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.left-bottom ul li span { float:right;}
+.left-bottom .notice-ul li a { width:370px;}
+
+.lecture { width:269px;}
+.notice { width:423px;}
+
+.contact-right { width:241px; height:490px;}
+.right-img { width:221px; height:253px; padding:10px; background:url(../images/right-img-bg.gif);}
+.img-2 { margin-top:15px; height:3px; background:url(../images/img-2.jpg) no-repeat; font-size:0;}
+.img-3 { margin-top:10px;}
+.img-4 { margin-top:11px;}
+
+.right-login { padding-top:34px;}
+.login-top ul { height:36px; border-bottom:1px solid #ccc;}
+.login-top ul li { float:left; margin-right:21px; color:#868583; height:34px; line-height:34px; cursor:pointer;}
+.login-top ul li.hover { color:#c6151f; border-bottom:2px solid #c6151f;}
+.login-top ul li:hover { color:#c6151f; border-bottom:2px solid #c6151f;} 
+.login { padding-top:28px;}
+.login div { margin-top:4px;}
+.login .txt, .login .pass { width:216px;}
+.login .sub { border:0; width:81px; height:25px; background:url(../images/submit.gif); float:left;}
+.login span { float:left; height:15px; padding-top:10px; margin-left:49px;}
+
+#wrap-footerlink-1 { background:#ebebeb; border-top:5px solid #ff9c00;}
+.footerlink {  height:24px; position:relative;}
+.footerlink a { display:inline-block; position:absolute; left:50%; top:0; margin-left:-29px;}
+
+#wrap-footerlink-2 { background:#d4d4d4;}
+.footerlink-2 {  height:42px;}
+.footerlink-2 ul { text-align:center;}
+.footerlink-2 ul li { display:inline; margin-right:153px;}
+.footerlink-2 ul li.last { margin-right:0;}
+.footerlink-2 ul li a { display:inline-block; height:42px; line-height:42px;}
+
+#wrap-footer { background:#302728;}
+.footer {  height:129px;}
+.footer ul { border-bottom:2px solid #3b3233; padding-left:60px; height:47px;}
+.footer ul li { float:left; height:47px; line-height:47px;}
+.footer ul li a { color:#fff; border-right:1px solid #fff; padding:0 10px;}
+.footer ul li.last a { border-right:0;}
+.footer p { line-height:24px; text-align:center; color:#969293; margin-top:19px;}
+
+

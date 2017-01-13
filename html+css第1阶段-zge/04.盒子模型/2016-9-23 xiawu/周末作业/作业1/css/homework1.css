@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+	*{ margin:0; padding:0;}
+	a{text-decoration:none;}
+	img { display:block; border:0;}
+	ul,li{list-style:none;}	
+		#z1,#z2,#z3,#z4,#z5,#z6,#z7 {width:999px; margin:0 auto;}
+		.z4-1-1 a,.z4-2-1 a,.z4-3-1 a,.z5-1 a{color:#242424;} 
+		.z6-1 a,.z6-3 a,.z6-5 a{color:#5c5c5c;} 
+		.z6-2 li a,.z6-4 li a{color:#565656;}
+		
+#z1 { width:959px; height:61px; background-color:#ffffff; padding-left:20px; padding-right:20px; padding-top:40px;}
+	.logo{ width:245px; height:23px;float:left;}
+	.search{ width:225px;height:26px;border:1px solid #e5e5e5; background-color:#f1f1f1; float:right; }
+	.search .txt{ width:188px;height:26px; border:0; padding-left:14px;line-height:26px; float:left; background:none; color:#8b8b8b; }
+	.search .sub{ width:23px;height:26px;border:0; background:none; background:url(../images/z1-2.jpg) no-repeat left center;}/*search框点击出现bug 浏览器兼容问题*/
+
+#z2 { height:59px; background-image:url(../images/z2-1.jpg); background-repeat:repeat-x;}
+	#z2 ul {margin-left:27px;}
+	#z2 ul li{height:59px; line-height:59px;padding:0 32px; border-right:1px solid #484848; float:left;}
+	#z2 ul li a{font-size:12px;color:#ffffff;font-weight:bold;}
+	#z2 ul li.last{border-right:0;}/*用表格怎么做？？？  最好不用table做*/
+
+#z3 {height:463px; background-image:url(../images/z3.jpg);}
+	
+#z4 {height:242px; background:#fff;}
+	
+	#z4 .z4-1{ width:450px;height:242px;float:left;padding-left:22px;padding-right:28px;}
+		#z4 .z4-1 .z4-1-1{ height:64px; width:72px;padding-top:13px; line-height:64px; fint-size:17px; font-weight:bold;}
+		#z4 .z4-1 ul{ width:438px; height:164px;padding-left:12px; font-size:11px;}
+		#z4 .z4-1 ul li{ height:25px; color:#585858; line-height:25px; list-style-image:url(../images/z4-1.jpg);}/*列表符号有点歪*/
+		#z4 .z4-1 ul a{ color:#545454;}
+		#z4 .z4-1 .z4-1-2{ float:right; color:#545454;}
+	
+	#z4 .z4-2{ width:215px;height :236px;padding-left:25px; padding-top:5px;background-color:#f1f1f1; float:left;}
+		#z4 .z4-2 .z4-2-1{ height:82px; line-height:82px; color:#1c1c1c; font-size:18px; font-weight:bold; }
+		#z4 .z4-2 .z4-2-2{height:50px;width:110px;line-height:25px;font-size:12px; color:#414141;}
+		#z4 .z4-2 .z4-2-3{width:192px; height:48px; line-height:24px; font-size:12px;padding-top:14px; color:#878787;} 
+	
+	#z4 .z4-3{width:234px;height:222px;padding-left:25px;padding-top:19px;background-color:#fbfbfb; float:left;background-image:url(../images/z4-3.jpg); background-repeat:no-repeat; background-position:166px 122px;} /*花盆直接用z4-3的背景属性 定位到右下角*/
+		#z4 .z4-3 .z4-3-1{width:72px; height:55px ;font-size:17px;line-height:55px;font-weight:bold;}
+		#z4 .z4-3 .z4-3-2{width:200px;height:56px;background:none;font-size:13px; line-height:25px;}
+		#z4 .z4-3 .z4-3-3{width:66px; height:19px;background:none; padding-top:42px; float:left;}
+
+#z5 { width:979px; height:292px;padding-left:20px;padding-top:13px;background-color:none;}
+	#z5 .z5-1{height:52px;line-height:52px;font-size:18px; font-weight:bold;}
+	
+	#z5 .z5-2{width:210px; height:240px;background:none; float:left;}
+		#z5 dt{width:210px; height:136px;}
+		#z5 dd{width:210px; height:93px;padding-top:11px;line-height:26px; font-size:12px; color:#585858;}
+	#z5 .z5-3{width:210px; height:240px;padding-left:40px; float:left;}
+	#z5 .z5-4{width:210px; height:240px; padding-left:40px; float:left;}
+	#z5 .z5-5{width:210px; height:240px; padding-left:40px; float:left;}
+
+#z6 { width:975px; height:230px; background-color:#e5e5e5;padding-left:24px;padding-top:20px;}
+	
+	#z6 .z6-0{float:left;}
+	
+	#z6 .z6-0-0{float:left;}
+		
+	#z6 .z6-0-0-0{float:left;}
+	
+	#z6 .z6-1{width:440px; height:37px;padding-left:12px; line-height:37px;font-size:15px;color:#6d6d6d; border-bottom:1px solid #c2c2c2; }
+	
+	#z6 .z6-2{width:452px; height:192px;background:none;}
+		
+		#z6 li{font-size:13px; line-height:25px;height:25px; list-style-image:url(../images/z6-1.jpg); color:#5b5b5b;}
+	
+		#z6 ul{}
+	
+		#z6 .z6-2-1{width:151px; height:178px; background:none; padding-left:18px; padding-top:14px; float:left;}
+	
+		#z6 .z6-2-2{ width:193px; height:178px; background:none;padding-top:14px; float:left;}
+	
+		#z6 .z6-2-3{width:90px; height:164px; background:none;padding-top:14px; float:left;} 
+	
+	#z6 .z6-3{width:139px; height:37px; line-height:37px; padding-left:13px; margin-left:48px;font-size:15px;color:#6d6d6d; border-bottom:1px solid #c2c2c2; }
+	
+	#z6 .z6-4{ width:139px; height:178px; background:none; padding-left:13px; padding-top:14px; margin-left:48px; margin:}
+	
+	#z6 .z6-5{ width:241px; height:37px;padding-left:8px; font-size:15px; line-height:37px;border-bottom:1px solid #c2c2c2; color:#6d6d6d; margin-left:56px; }
+	
+	#z6 .z6-6{ width:212px; height:178px; padding-left:29px; padding-top:14px; margin-left:56px;}
+
+#z7 { width:966px; height:57px; background-color:#fff; padding:24px 18px 0 15px;}
+	#z7 .z7-1{float:left;}
+	#z7 li{ float:left; padding-left:7px;padding-right:7px;border-right:1px solid #818181;}
+	#z7 li a{font-size:10px; height:10px;line-height:10px; color:#8d8d8d;}
+	#z7 .last{ border:0;}
+	
+	#z7 .z7-2 {float:right;font-size:13px;}
+	#z7 .z7-2 .z7-2-1{ color:#8e8e8e; float:left; font-size:13px; padding-right:2px;padding-top:3px;}
+	#z7 .z7-2 .z7-2-2{color:#8e8e8e; float:left; margin-top:2px;}
+	#z7 .z7-2 .z7-2-2 img { float:left;}
+	
+	

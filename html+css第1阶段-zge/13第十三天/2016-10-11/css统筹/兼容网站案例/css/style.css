@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* index */
+
+
+#wrap-banner { background:#e6e6e6;}
+.banner { height:328px; background:green; } /* 当它里面子元素全是浮动时，高度为0。*/
+
+.b-img { width:669px; height:328px; background:url(../images/b-img.jpg);}
+.b-news { width:331px; height:328px; background:#eee;}
+.b-news ul { padding:19px 39px 0 41px;}
+.b-news ul li { border-bottom:1px dashed #d8d8d8; padding-bottom:8px; margin-bottom:9px;}
+.b-news ul li a { display:inline-block; line-height:18px;} 
+
+.jt { float:right; margin-right:1px; margin-top:3px; _padding:11px 0 0 0;}
+
+#wrap-contact { }
+.contact {  height:546px; padding-top:40px; }
+.contact h3 { height:37px; line-height:37px; border-bottom:2px solid #dfdfdf;}
+
+
+.contact-left { width:734px; height:490px;}
+.left-top { margin-top:3px; height:207px;}
+.left-img { width:269px;}
+.left-img dl dt { margin-top:19px;}
+.left-img dl dd { height:28px; line-height:28px;}
+.left-img dl dd span { display:block; width:232px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; margin:0 auto;}
+
+.news { width:423px; height:200px;}
+.news-dl { padding-top:6px; width:100%; *padding-top:19px;}
+.news-dl dl { margin-top:13px; height:61px;}
+.news-dl dl dt { width:60px; height:61px; background:#c8141f; float:left; position:relative;}
+.news-dl dl dt span { font-size:20px; color:#fff; font-weight:bold; display:block; position:absolute; top:7px; left:50%; margin-left:-11px;}
+.news-dl dl dt em { color:#fff; display:block; position:absolute; bottom:7px; left:50%; margin-left:-21px; _width:42px;}
+
+.news-dl dl dd { width:344px; height:61px; float:right;}
+.news-dl dl dd h4 { font-size:12px; height:20px; line-height:20px;}
+.news-dl dl dd p { line-height:20px;}
+
+
+.left-bottom { padding-top:42px;}
+.left-bottom ul { padding-top:20px;}
+.left-bottom ul li { height:24px; line-height:24px;}
+.left-bottom ul li a { float:left; width:216px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.left-bottom ul li span { float:right;}
+.left-bottom .notice-ul li a { width:370px;}
+
+.lecture { width:269px;}
+.notice { width:423px;}
+
+.contact-right { width:241px; height:490px;}
+.right-img { width:221px; height:253px; padding:10px; background:url(../images/right-img-bg.gif);}
+.img-2 { margin-top:15px; height:3px; background:url(../images/img-2.jpg) no-repeat; font-size:0;}
+.img-3 { margin-top:10px;}
+.img-4 { margin-top:11px;}
+
+.right-login { padding-top:34px;}
+.login-top ul { height:36px; border-bottom:1px solid #ccc;}
+.login-top ul li { float:left; margin-right:21px; color:#868583; height:34px; line-height:34px; cursor:pointer;}
+.login-top ul li.hover { color:#c6151f; border-bottom:2px solid #c6151f;}
+.login-top ul li:hover { color:#c6151f; border-bottom:2px solid #c6151f;} 
+.login { padding-top:28px;}
+.login div { margin-top:4px;}
+.login .txt, .login .pass { width:216px;}
+.login .sub { border:0; width:81px; height:25px; background:url(../images/submit.gif); float:left;}
+.login span { float:left; height:15px; padding-top:10px; margin-left:49px;}
+
+/* index */
+
+
+
+/* news */
+
+
+.news-content { height:500px; background:orange;}
+.news-content p {}
+.news-content em {}
+
+/* news */
+
+
+
+
+
+
+
+

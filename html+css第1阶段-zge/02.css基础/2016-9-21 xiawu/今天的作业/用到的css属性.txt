@@ -1,0 +1,6 @@
+width:value; /* 表示元素的宽度 +px*/
+height:value; /*表示元素的高度 +px*/
+background:colorValue;/*表示元素的背景色*/
+margin:0 auto; 居中
+
+* { margin:0; padding:0;} /* 重置样式*/

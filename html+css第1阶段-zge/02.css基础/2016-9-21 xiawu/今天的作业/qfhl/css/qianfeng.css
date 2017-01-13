@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+   
+   *{ margin:0; padding:0;}
+   
+   		#z1,#z2,#z3,#z4,#z5,#z6{ width:1001px; margin:0 auto}
+	#z1{ height:62px; background:red;}
+	#z2{ height:421px;}
+	#z3{ height:350px; background:green;}
+	#z4{ height:309px; background:black}
+	#z5{ height:214px; background:pink}
+	#z6{ height:45px; background:grey}

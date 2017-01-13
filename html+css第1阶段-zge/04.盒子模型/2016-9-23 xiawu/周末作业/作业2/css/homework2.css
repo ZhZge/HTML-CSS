@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+#header,#banner,#nav,#news,#product,#footer{ width:1001px; margin:0 auto;}
+ul li{list-style:none;}
+a{text-decoration:none;}
+img{ border:none;}
+
+#header{ height:62px; background-color:#232323;}
+	#header .logo{padding:13px 0 0 12px; height:37px;float:left;}
+	#header .header-nav{float:right;}
+	#header .header-nav li{float:left;background:url(../images/header-nav.jpg) no-repeat right center; }
+	#header .header-nav li a{color:#fcffff;font-size:14px;height:62px; line-height:62px;font-weight:bold; padding:0 15px;display:block;}
+	#header .header-nav li .last{background:none;}
+	
+#banner{height:420px;background-image:url(../images/banner.jpg);border-bottom:1px solid #aaa9a5;}
+
+#nav{ height:315px; background-color:#f5f5f5;padding-top:35px;}
+	#nav .nav-bg{}
+	#nav dl{ width:250px;height:295px;background:url(../images/nav-5.jpg) repeat-y right top; padding-top:20px; float:left}
+	#nav dl.last{ background:none;}
+	#nav dt{text-align:center;height:90px;}
+	#nav dl dd h3{padding:15px 0 19px;height:22px; line-height:22px;font-size:22px; text-align:center;}
+	#nav dl dd h3 a{color:#242b3b;font-weight:bold;}
+	#nav dl dd h4{padding-bottom:16px;height:12px; line-height:12px; font-size:12px; text-align:center;}
+	#nav dl dd h4 a{color:#4c6d76;}
+	#nav dl dd ul{}
+	#nav dl dd ul li{height:18px; line-height:18px;font-size:14px; text-align:center;}
+	#nav dl dd ul li a{color:#a7bccd}
+	
+#news{width:974px; height:269px;background-color:#fff;padding:40px 27px 0 0;}
+	
+	#news .news-left{width:297px; height:224px;padding:1px;border:1px solid #dedddb;float:left;}
+	
+	#news .news-center{width:338px; height:268px;padding-left:15px; float:left;}	
+		#news .news-center h3{ margin-top:4px;font-size:18px;height:18px; line-height:18px;color:#202930;}
+		#news .news-center h4{margin-top:17px;font-size:14px;height:14px;line-height:14px;color:#3a4642;}
+		#news .news-center p{margin-top:12px;padding-bottom:11px;font-size:12px; line-height:18px; text-indent:2em;display:block;color:#9c9c9c;}
+		#news .news-center ul{border-top:1px dashed #c5c5c5;padding-top:11px; }
+		#news .news-center li{text-indent:13px;height:26px;line-height:26px;font-size:14px;background:url(../images/new-center.gif) no-repeat left center;}
+		#news .news-center li a{color:#484d46;display:block;}
+	
+	
+	
+	
+	

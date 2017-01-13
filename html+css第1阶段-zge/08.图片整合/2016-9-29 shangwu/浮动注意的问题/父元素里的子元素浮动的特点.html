@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>父元素的子元素浮动时的特点</title>
+<style type="text/css">
+	.fu { width:200px; height:51px; background:red;}
+	
+	.zi { width:50px; height:50px; background:yellow; float:left;}
+	
+	/* 当子元素全是浮动时，父元素的高度是不会受子元素高度的影响*/
+</style>
+</head>
+
+<body>
+
+	<div class="fu">
+    	<div class="zi"></div>
+        <div class="zi"></div>
+        <div class="zi"></div>
+        <div class="zi"></div>
+    </div>
+    
+</body>
+</html>

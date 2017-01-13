@@ -1,0 +1,15 @@
+重点：
+
+1、HTML5 基本结构 
+2、HTML的基本语法(双标签、单标签语法)
+3、1级标题标签  h1-h6
+4、段落标签 p
+5、空格标签 &nbsp;
+6、强制换行 <br />
+7、加粗 <b></b> <strong></strong>
+8、倾斜 <i></i> <em></em>
+9、水平线标签 <hr />
+10、无序列表 <ul><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+11、自定义列表 <dl><dt>名词</dt><dd>名词的解释</dd></dl>
+12、插入图片语法 <img src="" width="" height="" title="" alt="" />
+13、table一些小属性的应用 里面的标签 <tr></tr>  <td></td>

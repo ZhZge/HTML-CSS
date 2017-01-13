@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>提示信息标签</title>
+<style type="text/css">
+	
+	* { margin:0; padding:0;}
+	form { width:500px; margin:20px auto; }
+	fieldset { width:500px; padding:20px; border:0; border-top:1px solid #c9dca6;}
+	legend { text-align:center;}
+</style>
+
+
+</head>
+
+<body>
+	
+    <form>
+    
+        <fieldset>
+            <legend>注册信息</legend>
+            <label for="txt">用户名：</label><input type="text" value="" name="txt" id="txt"/><br /><br />
+            密码：<input type="password" value=""/>
+        </fieldset>
+        
+        <fieldset>
+            <legend>基本情况</legend>
+            姓名：<input type="text" value=""/><br /><br />
+            性别：<input type="text" value=""/>
+        </fieldset>
+        
+        <fieldset disabled>
+            <legend>其他信息</legend>
+            
+            <fieldset>
+            	<legend>你喜欢什么？</legend>
+                喜欢什么电影：<input type="text" value=""/><br /><br />
+                喜欢什么运动：<input type="text" value=""/>  
+            </fieldset>
+            
+             
+        </fieldset>
+        
+        <input type="submit" />
+    
+    </form>
+</body>
+</html>

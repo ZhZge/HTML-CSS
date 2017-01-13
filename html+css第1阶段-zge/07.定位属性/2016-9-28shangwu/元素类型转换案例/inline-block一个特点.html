@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>inline-block一个特点</title>
+<style type="text/css">
+
+	.box { width:300px; height:300px; border:1px solid red;}
+
+	.box span { display:inline-block; width:100px; height:100px; background:yellow; vertical-align:middle;}
+	
+	.box em { width:10px; height:200px; background:red; display:inline-block; vertical-align:middle;}
+	
+	/* 特点，当两个元素都是inline-block元素，并且同时设置了vertical-align:middle的时候，高度较小的元素会根据高度较大元素的中间基线居中 */
+	
+</style>
+</head>
+
+<body>
+
+	<div class="box">
+
+		<span></span><em></em>
+    
+    </div>
+    
+    
+</body>
+</html>

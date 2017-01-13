@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>浮动元素父元素高度自适应（高度塌陷）</title>
+<style type="text/css">
+	* { margin:0; padding:0;}
+	.fu { background:orange; overflow:hidden; /*width:100%; 给一个布局宽度触发haslayout==> */ _zoom:1;/* haslayout layout=布局 zoom:1; 触发了ie的haslayout，所以就有了布局的高度 */ /* overflow:hidden; 自动计算父块高度*/} /* 子元素全为浮动元素，高度塌陷（高度为0）*/
+	.zi-1 { width:300px; height:300px; background:red; float:left;}
+	.zi-2 { width:300px; height:460px; background:green; float:left;}
+	
+	.fu-1 { width:1000px; height:300px; background:yellow;}
+	
+</style>
+</head>
+
+<body>
+
+	<div class="fu">
+        <div class="zi-1"></div>
+        <div class="zi-2"></div>
+    </div>
+    
+    <div class="fu-1"></div>
+    
+</body>
+</html>

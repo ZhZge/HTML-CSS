@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>padding细节问题1- 需要减宽度</title>
+<style type="text/css">
+
+	* { margin:0; padding:0;}
+	.box { width:1000px; height:300px; background:yellow;}
+	
+	.box1 { width:200px; height:200px; padding-left:100px; background:green; float:left;}
+	.box2 { width:400px; height:200px; background:red; float:left;}
+	.box3 { width:300px; height:200px; background:blue; float:left;}
+	
+	
+	/* 当一个父元素宽度＝里面的子元素总宽度的时候，  当子元素设置了padding值，会导致子元素的宽度变大，就会造成最后一个子元素走到下面一行， 这种情况需要减宽度*/
+	
+
+</style>
+</head>
+
+<body>
+
+	<div class="box">
+    
+    	<div class="box1">aaaaa</div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    
+    </div>
+
+</body>
+</html>

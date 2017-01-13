@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+	#e1,#e2,#e3,#e4,#e5{ width:1100px; margin:0 auto;}
+		
+		#e1 { height:65px; background:gold;}
+		#e2 { height:423px; background:purple;}
+		#e3 { height:312px; background:gray;}
+		#e4 { height:407px; background:cyan;}
+		#e5 { height:229px; background:greenyellow;}
+		

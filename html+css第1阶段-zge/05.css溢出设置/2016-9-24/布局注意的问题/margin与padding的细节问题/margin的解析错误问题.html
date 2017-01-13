@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>margin的解析错误问题</title>
+<style type="text/css">
+	* { margin:0; padding:0;}
+	.box { width:500px; height:300px; background:yellow; float:left;}
+	.zi { width:300px; height:100px; background:red; margin-top:100px;}
+	
+	
+	/* 当一个正常的包含元素，包含一个子元素，当元素设置margin-top的时候，会把它的父元素一起“扯下来”*/
+	
+	/* 当它的父元素为浮动元素时，它的margin解析是正确的。 */
+	
+	/* 为了避免margin造成的解析的问题，在padding与margin效果一样的情况下，优先用padding */
+	
+	
+</style>
+</head>
+
+<body>
+
+	<div class="box">
+    
+    	<div class="zi"></div>
+    
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0;}
+
+#header,#banner,#product,#news,#footer-link,#footer { width:1001px; margin:0 auto;}
+
+#header { height:60px; background:red; }
+#banner { height:422px; background:yellow; }
+#product { height:349px; background:orange; }
+#news { height:311px; background:green;}
+#footer-link { height:212px; background:black; }
+#footer { height:45px; background:red;}

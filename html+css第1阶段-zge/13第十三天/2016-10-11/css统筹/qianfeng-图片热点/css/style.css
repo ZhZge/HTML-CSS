@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.header,.product,.news,.footlink,.footer { width:988px; margin:0 auto;}
+
+#wrap-header { background:#232323;}
+.header { height:62px;}
+.logo { float:left; padding:12px 0 0 12px; height:37px;/*div里面有img，当div不设置高度时，会有多出3px的解析bug，把div设置和图片一样的高度即可~ */} 
+.nav { float:right;}
+.nav ul li { float:left; background:url(../images/nav-li.gif) no-repeat right center;}
+.nav ul li a { color:#fff; font-size:14px; font-weight:bold; padding:0 15px; display:block; /* display:block 转成块元素*/ height:62px; line-height:62px;}
+.nav ul .hover a { background:#f15a23;}
+.nav ul li a:hover { background:#f15a23;}
+
+#wrap-banner { height:419px; background:url(../images/banner.jpg) no-repeat center top; border:1px solid #a8a8a8;}
+
+#wrap-product { background:#f5f5f5;}
+.product { height:315px;  padding-top:34px;}
+.product-dl { }
+.product dl { float:left; width:247px; height:286px; background:url(../images/dl-bg.gif) repeat-y right top;  }
+
+.product dl dt { padding-top:20px;text-align:center;}
+.product dl dd { padding-top:13px;text-align:center;}
+
+.product dl h3 { font-size:20px; height:26px; line-height:26px; text-align:center;}
+.product dl h4 {  color:#546c7d; height:44px; line-height:44px; width:238px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin:0 auto; text-align:center;}
+.product dl li {  color:#a3bccd; height:18px; line-height:18px; text-align:center;}
+
+.product .last { background:none;}
+
+
+#wrap-news { }
+.news { height:309px;  }
+
+.news-content { padding-top:39px;}
+.news-content h3 { font-size:18px; height:18px; overflow:hidden;}
+
+
+.news-content ul { padding-top:10px; }
+.news-content ul li { height:26px; line-height:26px; background:url(../images/news-li.gif) no-repeat left 9px; text-indent:12px; width:277px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.news-content ul li a{ color:#444; }
+
+
+
+
+.news-left { height:224px;  float:left; border:1px solid #dddddd; padding:1px;}
+.news-center { width:319px; padding:0 18px 0 15px;  float:left; border-right:1px solid #dcdedf; margin-top:4px;}
+.news-center h4 { padding:17px 0 12px 0; font-size:14px; height:14px; overflow:hidden;}
+.news-center p {  line-height:18px; color:#999; text-indent:2em; border-bottom:1px dashed #ccc; padding-bottom:10px;}
+
+
+.news-right { width:307px; height:228px;  float:right; margin-right:12px;}
+
+.online-qq { height:24px; padding-top:20px;}
+.online-qq .qq1 { float:left;}
+.online-qq .qq2 { float:right;}
+
+.news-right h4 { padding:28px 0 17px 0; font-size:18px; color:#666; height:18px;}
+.news-right .right-ul { padding-top:0;}
+.news-right .right-ul li { height:25px; line-height:25px; background:none; text-indent:0; color:#666;}
+
+#wrap-footlink { background:#222;}
+.footlink { height:203px; padding-top:11px; }
+.foot-left { width:493px; height:196px; background:url(../images/foot-bg.gif) no-repeat right top; float:left;}
+.foot-left ul { float:left; margin-right:39px; margin-top:22px;}
+.foot-left ul li { height:24px; line-height:24px; text-align:center;}
+.foot-left ul .first { height:48px; line-height:48px; }
+.foot-left ul .first a { color:#fff; font-weight:bold;}
+.foot-left ul li a{ color:#999; }
+.foot-left .last { margin-right:0;}
+
+
+.foot-center { width:315px; height:196px; background:url(../images/foot-bg.gif) no-repeat right top; float:left;}
+.map { width:315px; height:196px;}
+.map { margin-left:40px; margin-top:19px;}
+
+.foot-right { width:147px; height:196px; background:url(../images/foot-right.jpg) no-repeat 0 8px; float:right;}
+
+
+#wrap-footer {height:45px; background:#101010; color:#999;  text-align:center; line-height:45px;}
+
+

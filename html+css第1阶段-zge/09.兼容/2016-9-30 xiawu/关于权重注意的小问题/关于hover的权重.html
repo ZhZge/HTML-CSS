@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>关于hover的权重</title>
+<style type="text/css">
+
+	
+	
+	div.box { width:200px; height:200px; background:red; margin:20px auto;} /*1+10=11*/
+	
+	div:hover { background:orange;} /* 1+10=11 */
+	
+	a:hover {} /*1+10=11*/ 
+	
+</style>
+</head>
+
+<body>
+
+	<div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+IE6、IE7中li底部出现3px的bug 解决方案
+
+必要条件：
+li的子元素设置了浮动
+
+充要条件：
+(IE6/7)li设置了width、height、zoom 之一 
+(仅IE7)li设置了padding-top、padding-bottom、margin-top、margin-bottom 之一
+
+解决方案：
+
+方案一
+#list li设置clear:left|both，这时#list li不能设置width、height、zoom。
+
+方案二
+#list li设置float:left，这时#list li可以设置width、height、zoom。
+
+方案三
+给li中的span设置vertical-align:top|middle|bottom

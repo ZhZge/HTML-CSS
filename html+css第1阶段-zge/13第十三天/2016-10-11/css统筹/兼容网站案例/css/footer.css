@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#wrap-footerlink-1 { background:#ebebeb; border-top:5px solid #ff9c00;}
+.footerlink {  height:24px; position:relative;}
+.footerlink a { display:inline-block; position:absolute; left:50%; top:0; margin-left:-29px;}
+
+#wrap-footerlink-2 { background:#d4d4d4;}
+.footerlink-2 {  height:42px;}
+.footerlink-2 ul { text-align:center;}
+.footerlink-2 ul li { display:inline; margin-right:153px;}
+.footerlink-2 ul li.last { margin-right:0;}
+.footerlink-2 ul li a { display:inline-block; height:42px; line-height:42px;}
+
+#wrap-footer { background:#302728;}
+.footer {  height:129px;}
+.footer ul { border-bottom:2px solid #3b3233; padding-left:60px; height:47px;}
+.footer ul li { float:left; height:47px; line-height:47px;}
+.footer ul li a { color:#fff; border-right:1px solid #fff; padding:0 10px;}
+.footer ul li.last a { border-right:0;}
+.footer p { line-height:24px; text-align:center; color:#969293; margin-top:19px;}

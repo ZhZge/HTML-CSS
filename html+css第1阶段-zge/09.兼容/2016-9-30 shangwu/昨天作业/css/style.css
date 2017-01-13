@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+	* { margin:0; padding:0;}
+	ul,li { list-style:none;}
+	.box { width:715px; height:176px; border:1px solid red; margin:20px auto; position:relative; background:url(../images/header.jpg);}
+	.box ul { position:absolute; bottom:0; left:23px;}
+	.box ul li { float:left;}
+	.box ul li a { display:block; width:66px; height:28px; background:url(../images/Navigation.gif) no-repeat; text-indent:-9999px;}
+
+	
+	.box ul .about a { width:68px; background-position:-66px 0;}
+	.box ul .active a { width:78px; background-position:-135px 0; }
+	.box ul .contact a { width:84px; background-position:-215px 0;}
+	.box ul .links a { width:58px; background-position:-299px 0;}
+	
+	.box ul li a:hover { background-position:0 -28px;}
+	.box ul .about a:hover { background-position:-66px -28px;}
+	.box ul .active a:hover { background-position:-135px -28px;}
+	.box ul .contact a:hover { background-position:-215px -28px;}
+	.box ul .links a:hover { background-position:-299px -28px;}
+	
+	#home ul .home a { background-position:0 -56px;}
+	#about ul .about a { background-position:-66px -56px;}
+	#active ul .active a { background-position:-135px -56px;}
+	#contact ul .contact a { background-position:-215px -56px;}
+	#links ul .links a { background-position:-299px -56px;}

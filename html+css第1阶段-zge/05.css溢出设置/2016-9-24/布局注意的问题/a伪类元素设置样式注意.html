@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>a伪类元素设置样式注意-demo</title>
+<style>
+
+	ul li { font-size:30px; color:red; text-decoration:none;} /* 要设置包含元素里面的a伪类颜色，注意一定要单独设置a标签的颜色，不能设置a的父元素的颜色而改变它本身的颜色样式*/
+	ul li a{ color:red; text-decoration:none;}
+
+</style>
+</head>
+
+<body>
+	
+    <ul>
+    	<li><a href="#">首页</a></li>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">首页</a></li>
+    </ul>
+    
+    <ul>
+    	<li>首页</li>
+		<li>首页</li>
+        <li>首页</li>
+        <li>首页</li>
+    </ul>    
+
+
+</body>
+</html>

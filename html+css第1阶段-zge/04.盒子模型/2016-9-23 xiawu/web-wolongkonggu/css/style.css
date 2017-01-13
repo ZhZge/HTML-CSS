@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0;} 
+img { border:0;}
+ul,li { list-style:none;}
+a { text-decoration:none;}
+
+#header,#nav,#banner,#news,#product,#footer-link,#footer { width:999px; margin:0 auto;}
+
+#header { width:959px; height:61px; padding-top:40px; padding-left:21px; padding-right:19px; }
+.logo { width:244px; height:20px; float:left; /*margin-top:40px; margin-left:21px;*/}
+
+
+.search { width:225px; border:1px solid #e5e5e5; background:#f1f1f1; float:right; /*margin-right:19px; margin-top:40px;*/}
+.search input { }
+.search .txt { width:202px; height:26px; border:0; background:none; /* 不要任何背景*/ float:left; color:#848484; line-height:26px; /*padding-left:14px;*/ text-indent:14px;}
+.search .sub { width:23px; height:26px; border:0; background:url(../images/search.jpg) no-repeat left center; float:left;}
+
+
+#nav {  height:59px; background:url(../images/nav-bg.gif) repeat-x;  }
+#nav ul { margin-left:30px;}
+#nav ul li { float:left; height:59px; line-height:59px; border-right:1px solid #484848; padding:0 28px;}
+#nav ul li.last { border-right:0;}
+#nav ul li a { font-size:14px; color:#fafafa; font-weight:bold;}
+
+
+#banner {  height:463px; background:url(../images/banner.jpg); }
+
+#news {  height:242px; }
+
+.news-left { width:451px; height:227px;  float:left; padding-left:22px; padding-right:27px; }
+#news h3 { height:58px; line-height:58px; font-size:16px; color:#4d4d4d; padding-top:17px; } /* 包代选择符主要作用 －－ 设置作用空间 */
+.news-left ul { padding-top:4px;}
+.news-left ul li{ height:24px; line-height:24px; background:url(../images/li.gif) no-repeat left center; padding-left:12px;}
+.news-left ul li a { font-size:12px; color:#585858; float:left; width:290px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.news-left ul li span { font-size:12px; color:#b3b3b2; float:right;}
+
+.news-center { width:193px; height:242px; background:#f1f1f1; float:left; padding:0 24px 0 25px;}
+.news-center .p1 { padding-top:20px; font-size:14px; color:#5e5e5e;}
+.news-center .p2 { font-size:12px; padding-top:13px; color:#5e5e5e;}
+.news-center .p3 { font-size:14px; padding-top:21px; line-height:24px; color:#959595;} 
+
+.news-right { width:179px; height:242px; background:url(../images/hua.jpg) no-repeat #fbfbfb 166px 123px; float:left; padding:0 54px 0 24px;}
+.news-right p { font-size:12px; color:#777; line-height:24px;}
+.news-right div { padding-top:49px;}
+
+
+#product { width:979px; height:292px; padding:14px 0 0 20px; } /* 相同的权重，后书写的样式会覆盖上面的样式*/
+
+#product h3 { font-size:16px; color:#4d4d4d; height:52px; line-height:52px;} 
+
+
+#product dl { width:210px; float:left; margin-right:40px;} /* 100+10+1 = 111*/
+#product .last { margin-right:0;} /* 100+10=110 权重不够，覆盖不了 */
+
+#product dl dt { height:136px;} /* 包含元素包含图片，块元素下面会有一个多出3px的bug*/
+#product dl dd { font-size:12px; margin-top:13px; line-height:2em;}
+
+
+
+#footer-link {width:979px; height:232px; background:#e5e5e5; padding:20px 0 0 20px; }
+
+#footer-link h4 { font-size:14px; color:#606060; border-bottom:1px solid #c2c2c2; height:36px; line-height:36px;}
+
+
+#footer-link ul li { height:24px; line-height:24px; background:url(../images/li-2.gif) no-repeat left 9px; text-indent:13px;}
+#footer-link ul li a{ font-size:12px;color:#6a6a6a;}
+#footer-link .link-ul { padding-top:13px;}
+
+ 
+.link-left { width:452px; float:left;  margin-right:50px;}
+
+.link-ul ul { float:left;}
+
+.link-ul .ul-1 { width:151px;}
+.link-ul .ul-2 { width:192px;}
+.link-ul .ul-3 { width:104px;}
+
+
+.link-center { width:152px; float:left; margin-right:50px;}
+.link-right { width:257px; height:200px; float:left; background:url(../images/map.jpg) no-repeat 34px 53px; }
+
+
+#footer { width:966px;  height:56px; padding:23px 18px 0 15px; }
+.foot-left { float:left;}
+
+.foot-left ul li { float:left; border-right:1px solid #818181; padding:0 7px;}
+.foot-left ul li a { color:#818181; font-size:12px; display:block; }
+.foot-left ul .last { border:0;}
+
+.foot-right { float:right; font-size:12px; color:#818181;}
+.foot-right .foot-text{ float:left; margin-right:9px;}
+.foot-right .foot-img{ float:left;}
+.foot-right .foot-img img { margin-left:7px;}
+

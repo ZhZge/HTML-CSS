@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>web标准 － 例子-人</title>
+<style>
+    /* 表现(样式) 颜色 大小等 */
+	.tou { width:50px; height:50px; background:red; margin-left:50px; border-radius:50%;}
+	.shenti { width:150px; height:150px; }
+	.zuoshou { width:30px; height:100px; background:orange; float:left;}
+	.zhuti { width:90px; height:150px; background:blue; float:left;}
+	.youshou { width:30px; height:100px; background:orange; float:left;}
+	
+	.jiao { width:100px; height:100px; margin-left:40px;}
+	.zuojiao { width:30px; height:100px; background:red; float:left;}
+	.youjiao { width:30px; height:100px; background:red; float:left; margin-left:10px;}
+	 
+	
+</style>
+
+
+<!-- 行为 （换衣服-- 交互效果）-->
+<script type="text/javascript">
+	window.onload = function(){
+		var oDiv = document.getElementById("zhuti");
+		var i = 0;
+		
+		oDiv.onclick = function(){
+			i++;
+			if (i%2 != 0){
+				oDiv.style.background = "green";
+			}else {
+				oDiv.style.background = "orange";
+			}
+			
+			
+			/* 判断  -- 逻辑语言 */
+				
+		}
+		
+	}
+</script>
+</head>
+
+<body>
+
+    <!-- 人的结构 轮廓-->
+	
+    <div class="tou"></div>
+    
+    <div class="shenti">
+    	
+        <div class="zuoshou"></div>
+        <div class="zhuti" id="zhuti"></div>
+        <div class="youshou"></div>
+        
+    </div>
+    
+    <div class="jiao">
+    	<div class="zuojiao"></div>
+        <div class="youjiao"></div>
+    </div>
+	
+
+</body>
+</html>

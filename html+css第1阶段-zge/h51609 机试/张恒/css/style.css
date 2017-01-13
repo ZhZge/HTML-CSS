@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.header,.new,.recruit,.hack,.product,.friendlink,.footerlink,.footer{margin:0 auto;width:1000px;}
+
+
+			
+#wrap-banner{ width:100%;height:338px;background:url(../images/banner-bg.jpg) no-repeat left top;}
+
+#wrap-new{background:#f9f9f9;height:372px;}		
+	.new{padding-top:34px;height:338px;}
+	.new .new-left{width:294px;float:left; background:#ececec;}
+		.new-left .img{width:294px;height:151px;background:url(../images/new-left-img.jpg) no-repeat left top;}
+		.new-left h2{margin-top:15px;font-size:22px;text-indent:14px;color:#e02c2f;}
+		.new-left h3{margin-top:10px; font-size:16px; text-indent:14px;color:#0078e7;}
+		.new-left h4{margin-top:13px;padding-left:14px; font-size:12px; line-height:18px;color:#666; font-weight:normal;}
+
+	.new .new-center{width:394px; height:303px;border:1px solid #d2d2d2;height:303px;float:left;margin-left:9px;margin-top:3px;background:#fff;}
+		.new-center .c-top{width:394px;height:35px;border-bottom:4px solid #e6e6e6;}
+		
+		.c-top p{float:left;width:157px;height:35px;line-height:35px;font-size:12px;color:#666;font-weight:bold;border-bottom:3px solid #e53d3d; text-align:center;}
+		.c-top a{float:right;height:35px;line-height:35px; color:#e60c22;padding-right:16px;}
+		
+		.new-center .c-bottom{padding-top:5px;}
+		.c-bottom ul{float:left;padding-left:10px;}
+		.c-bottom ul li{float:left;width:364px;height:42px;line-height:42px;border-bottom:1px solid #e6e6e6;padding-left:11px;background:url(../images/c-bottom-bg.gif) no-repeat left center;}
+		.c-bottom ul li a{color:#666;}
+		.c-bottom p{float:right;}
+		
+	.new .new-right{width:290px;height:303px;float:right;border:1px solid #e6e6e6;margin-top:3px;background:#fff;}
+		.new-right .r-top{width:276px; height:55px;border:1px solid #d2d2d2;padding-top:13px;padding-left:12px; background:url(../images/r-top-bg.gif) no-repeat left top;}
+		.r-top .r-top1{width:51px; height:43px; float:left;padding-right:15px;}
+		.r-top .r-top2{ float:left;position:relative; overflow:hidden;}
+			.r-top2-1{float:left;overflow:hidden;}
+			.r-top2-1 h4{font-size:12px;height:28px;line-height:28px;font-weight:bold;width:60px;}
+			.r-top2-1 a{position:absolute;left:70px;top:6px;}
+			
+			.r-top2-2{width:202px;height:14px; clear:both;}
+			.r-top2-2 p{ font-size:12px; background:url(../images/r-top2-2p.gif) no-repeat right center;}
+		
+		.new-right .r-bottom{}	
+		.new-right .bottom{padding-left:12px; overflow:hidden;}
+			.bottom .box1{padding-top:9px; float:left;}
+			.bottom .box2{padding-left:12px; float:left; position:relative;}
+				.box2 p{width:135px;lin-height:18px;color:#666;padding-top:9px;}	
+				.box2 .box2-bf{width:56px;height:20px;background:#5ba6d9;line-height:20px;border:1px solid #4890c4; position:absolute;left:92px;top:50px;}	
+				.box2 .box2-bf a{color:#fff;padding-left:13px;}
+		
+#wrap-recruit { background:#f9f9f9;}
+	.recruit { height:144px; background:url(../images/recruit-bg.jpg) no-repeat left top;}
+	
+#wrap-hack{ background:#f0f0f0;}
+	.hack { height:64px;padding-top:6px;}
+	.hack .hack-left{ float:left;}
+	.hack .hack-left .jiejue{ width:155px; height:58px; background:#d7d7d7; font-size:20px; line-height:58px; text-align:center; font-weight:bold; color:#666; float:left;}
+	.hack .hack-left .jt {float:left;}
+	
+	.hack .hack-center{ float:left; padding-top:13px; padding-left:43px;}
+	.hack .hack-center p{ width:682px; height:53px; line-height:18px; color:#888888;}
+	.hack .hack-center p a{ color:#0077c8;}
+	
+	.hack .hack-right{ float:right; width:39px; height:41px; background:url(../images/recruit-right-bg.gif) no-repeat; margin-top:9px; margin-right:25px;}
+	
+#wrap-product { height:576px; background:#fafafa;padding-top:26px;}
+	.product { height:576px;}
+	
+	.product .u{ width:240px; margin-right:13px; float:left;}
+	.product .u li {width:238px; height:169px; border:1px solid #d5d5d5; margin-bottom:13px;}
+	.product .u li .img{width:220px; height:120px;padding:9px;}
+	.product .u li p{ width:238px; height:30px; border-top:1px solid #d5d5d5; line-height:30px ; font-size:14px; font-weight:bold; text-align:center; color:#666; background:#f0f0f0;}
+	.product .last {margin-right:0;}
+
+
+	
+
+
+
+
+
+
+
+

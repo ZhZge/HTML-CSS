@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+/** 清除内外边距 **/
+body,h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+	a{ text-decoration:none;}
+	ul li { list-style:none;}
+	body{font-size:12px;}
+			/*公共样式*/
+
+#wrap-header { height:92px; background:url(../images/header-bg.gif) repeat-x left top;}
+	.header{width:1000px; overflow:hidden; position:relative;}
+	
+	.header .header-left{height:92px; float:left;}
+		.logo{width:129px;height:56px; float:left;padding-top:22px;padding-left:40px;}
+		.chinese-english{ width:120px ;float:left; font-size:12px; height:16px; line-height:16px; padding-top:62px;padding-left:13px;}
+		.chinese-english a{ color:#666;}
+		
+	.header .header-right{height:92px;float:right;}
+		.header-right-box{width:377px;height:24px;padding-top:10px;}
+			.login{float:left; line-height:24px;padding-right:16px;}
+			.login a{ color:#666;}
+			.search{ float:left;}
+			.search .input1 {width:177px;float:left;height:20px; font-size:12px; color:#808080;}
+			.search .input2 {width:33px;height:24px;border:1px solid #b2b2b2;background:url(../images/header-fdj.gif) no-repeat;}
+		.nav{}
+		.nav ul{ position:absolute; left:378px; top:63px;}
+		.nav ul li{height:12px;line-height:12px;;float:left;padding-right:44px;font-weight:bold;}
+		.nav ul li a{color:#555555;}
+			/*网站头部*/
+	
+#wrap-friendlink{ background-color:#f0f0f0;background-image:url(../images/friendlink-bg.gif); background-repeat:repeat-x; background-position:left top;}
+	.friendlink { height:88px; padding-top:22px;}
+	.friendlink .link{ height:31px; overflow:hidden; margin-bottom:10px;}
+	.friendlink .link span { display:inline-block; height:31px; line-height:31px; overflow:hidden;padding-left:5px; font-size:14px; font-weight:bold; color:#666;}
+	.friendlink .link a{ display:inline-block; margin-left:10px}
+	
+#wrap-footerlink { background:#666;height:260px;}
+	.footerlink {width:964px; padding-top:39px;padding-left:36px; }	
+	
+	.footerlink ul {width:100px;padding-right:64px; float:left;}
+	.footerlink ul li.first { height:12px; height:12px; line-height:12px; font-weight:bold; margin-bottom:19px;}
+	.footerlink ul li a{color:#ababab; height:22px; line-height:22px; font-size:12px;}
+	
+	.footerlink .ul-last {width:308px; height:130px;padding-right:0; float:right;}
+	.footerlink .ul-last li { text-indent:25px; background:url(../images/footerlink-li-bg.gif) no-repeat left center;}
+	.footerlink .ul-last li.first { height:12px; height:12px; line-height:12px; font-weight:bold; margin-bottom:19px;text-indent:0;background:none;}
+	.footerlink .ul-last li a{color:#ababab; height:24px; line-height:24px; font-size:12px;}
+	.footerlink .weibo{margin-top:13px;width:308px;height:27px;float:right;}
+	.footerlink .weibo a{padding-right:20px;}
+	.footerlink .weibo a.last{padding-right:0;}
+			/*网站底部 友情链接*/
+#wrap-footer{ background:#aaaaaa;}
+	.footer{height:40px;}
+	.footer .footer-left{ height:40px; line-height:40px; color:#444444; float:left;padding-left:36px;}
+	.footer .footer-left p { float:left;}
+	.footer .footer-left img{float:left; margin-top:12px; margin-left:15px;}
+	
+	.footer .footer-right{ height:40px; line-height:40px; color:#444444; float:right;padding-right:25px;}
+	.footer .footer-right p { float:left;}
+	.footer .footer-right img{float:left; margin-top:12px; margin-left:15px;}
+			/*网站底部*/
+			
+			
+#wrap-banner {width:1600px;height:180px; background:url(../images/content-banner.jpg) no-repeat le}

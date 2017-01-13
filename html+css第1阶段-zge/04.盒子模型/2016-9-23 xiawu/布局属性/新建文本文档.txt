@@ -1,0 +1,1 @@
+弹性盒子 padding会把盒子撑高撑宽 要给这种弹性盒子设置padding之后宽高不变，我们就得设置padding之后，把原有的高度和宽度再减去padding-top和padding-left的值

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0;} /* 我们在写网站的时候， 第一步最重要的事情，就是写上这一段 －－ 元素默认间距样式归零  弊端：耗资源， 小网站可以忽视这个弊端 */
+
+#header,#nav,#banner,#news,#product,#footer-link,#footer { width:999px; margin:0 auto;}
+
+#header {  height:101px; background:red;}
+#nav {  height:57px; background:green;  }
+#banner {  height:463px; background:blue; }
+#news {  height:242px; background:yellow; }
+#product {  height:306px; background:black; }
+#footer-link { height:252px; background:pink; } 
+#footer {  height:79px; background:tomato;}

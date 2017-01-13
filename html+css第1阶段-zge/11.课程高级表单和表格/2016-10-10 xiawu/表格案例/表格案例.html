@@ -1,0 +1,444 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表格案例</title>
+<style type="text/css">
+	
+	* { margin:0; padding:0;}
+	body { font-size:12px;}
+	
+	.table-1 { margin:20px auto; width:308px; height:65px; border:1px solid #ccc; border-spacing:0; border-collapse:collapse;}
+	.table-1 td { border:1px solid #ccc;}
+	
+	.table-2 { margin:20px auto; width:308px; height:45px; border-spacing:0; border-collapse:collapse; border:10px solid #ccc; table-layout:fixed;}
+	.table-2 td { border:1px solid #ccc;}
+	
+	.table-3 { margin:20px auto;  width:308px; height:45px; border-spacing:0; border-collapse:collapse; border:2px double #ccc; table-layout:fixed;}
+	.table-3 td { border:1px solid #ccc;}
+	
+	.table-4 { margin:20px auto; width:330px; border-spacing:10px;}
+	.table-4 td { border:1px solid #ccc; height:22px;}
+	
+	.table-5 { margin:20px auto; width:306px; border-spacing:0; border-collapse:collapse;}
+	.table-5 td { border-bottom:1px solid #000; height:22px;}
+	
+	.table-6 { margin:20px auto; width:276px; height:100px; border:5px solid #666; table-layout:fixed; border-spacing:5px; padding:5px; empty-cells:hide;}
+	.table-6 td { background:#ff6600; height:82px;}
+	
+	.table-7 { margin:20px auto; width:598px; height:110px; border:1px solid #ccc; table-layout:fixed; empty-cells:hide;}
+	.table-7 td { border:1px solid #ccc;}
+	
+	.table-8 { margin:20px auto; width:148px; height:83px; border-spacing:0; border-collapse:collapse;}
+	.table-8 caption { background:#0099ff; color:#fff; height:14px; line-height:14px; font-weight:bold;}
+	.table-8 td,.table-8 th { border:1px solid #0099ff;} 
+	.table-8 th.td-1 { width:50px;}
+	.table-8 th.td-2 { width:38px;} 
+	
+	.table-9 { margin:20px auto; width:298px; height:95px; border-spacing:0;} 
+	.table-9 caption { background:#0099ff; color:#fff; height:14px; line-height:14px; font-weight:bold;}
+	.table-9 .tr-1 th{ border-bottom:1px solid #808080;}
+	.table-9 .col-1 { background:#ffccff; width:99px; border-right:3px solid #fff;}
+	.table-9 .col-2 { background:#0000ff;  border-right:5px solid #fff;} 
+	.table-9 .col-3 { background:#ffccff; width:97px; } 
+	
+	.table-10 { margin:20px auto; width:612px; height:218px; border:1px solid #cc33ff; border-spacing:0; border-collapse:collapse;}
+	.table-10 caption { font-size:14px; font-weight:bold; height:24px; line-height:24px;}
+	.table-10 thead { background:#cc0099;}
+	.table-10 thead th{ height:42px;}
+	.table-10 .tr-1 { background:#cc66cc; font-weight:bold;}
+	.table-10 .tr-2 { background:#ffccff;}
+
+
+	/* 案例2 */
+	.table-11 { margin:20px auto; width:612px; height:218px; border:1px solid #cc33ff; border-spacing:0; border-collapse:collapse;}
+	.table-11 caption { font-size:14px; font-weight:bold; height:24px; line-height:24px;}
+	.table-11 thead { background:#0047e1;}
+	.table-11 thead th{ height:21px; color:#fff;}
+	
+	.table-11 tbody tr:nth-child(2n) { }
+	.table-11 tbody tr:nth-child(2n+1) { background:#fef0f5;}
+	
+	.table-11 tbody tr.tr-1 { background:#7e9de5; color:#d8e4f8;}
+	
+	.table-11 tbody tr { height:20px;}
+
+</style>
+</head>
+
+<body>
+
+	<table class="table-1">
+    	<tr>
+        	<td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    	<tr>
+        	<td></td>
+            <td></td>
+            <td></td>
+        </tr>        
+    </table>
+    
+    
+    <table class="table-2">
+    	<tr>
+        	<td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    	<tr>
+        	<td></td>
+            <td></td>
+            <td></td>
+        </tr>     	
+    </table>
+    
+    <table class="table-3">
+    	<tr>
+        	<td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    	<tr>
+        	<td></td>
+            <td></td>
+            <td></td>
+        </tr>     	
+    </table>
+    
+    <table class="table-4">
+    	<tr>
+        	<td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    	<tr>
+        	<td></td>
+            <td></td>
+            <td></td>
+        </tr>    	
+    </table>
+    
+    <table class="table-5">
+    	<tr>
+        	<td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    	<tr>
+        	<td></td>
+            <td></td>
+            <td></td>
+        </tr>   
+    	<tr>
+        	<td></td>
+            <td></td>
+            <td></td>
+        </tr>   	
+    </table>
+    
+    <table class="table-6">
+    	<tr>
+        	<td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    	<tr>
+        	<td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td></td>
+        </tr>      
+    </table>
+    
+    <table class="table-7">
+    
+    	<tr>
+        	<td>111</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    	<tr>
+        	<td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>   
+    	<tr>
+        	<td>7</td>
+            <td></td>
+            <td>8</td>
+        </tr>     
+
+    </table>
+    
+    
+    <table class="table-8">
+    	<caption>通讯录</caption>
+    	<tr>
+        	<th class="td-1">姓名</td>
+            <th class="td-2">电话</td>
+            <th>传真</td>
+        </tr>
+     	<tr>
+        	<td>张三</td>
+            <td>88888</td>
+            <td>5435435</td>
+        </tr>
+    	<tr>
+        	<td>李四</td>
+            <td>8888</td>
+            <td>435435</td>
+        </tr>
+    	<tr>
+        	<td>王二麻子</td>
+            <td>88888</td>
+            <td>34535</td>
+        </tr>
+    </table>
+    
+    <table class="table-9" rules="groups">
+    	<caption>通讯录</caption>
+        
+        <colgroup class="col-1"></colgroup>
+        <colgroup span="2" class="col-2"></colgroup>
+        <colgroup class="col-3"></colgroup>
+        
+    	<tr class="tr-1">
+        	<th>姓名</th>
+            <th>电话</th>
+            <th>邮编</th>
+            <th>传真</th>
+        </tr>
+    	<tr>
+        	<td>Jim</td>
+            <td>188888888</td>
+            <td>Jim</td>
+            <td>Beijing</td>
+        </tr>
+    	<tr>
+        	<td>Jim</td>
+            <td>188888888</td>
+            <td>Jim</td>
+            <td>Beijing</td>
+        </tr>
+    	<tr>
+        	<td>Jim</td>
+            <td>188888888</td>
+            <td>Jim</td>
+            <td>Beijing</td>
+        </tr>
+    	<tr>
+        	<td>Jim</td>
+            <td>188888888</td>
+            <td>Jim</td>
+            <td>Beijing</td>
+        </tr>
+    </table>
+    
+    <table class="table-10">
+    	<caption>2007全国非邮发报刊联合征订目录</caption>
+        
+        <thead>
+            <tr>
+                <th>代号</th>
+                <th>刊名</th>
+                <th>刊期</th>
+                <th>出版地</th>
+                <th>年定价</th>
+                <th>CN号</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr class="tr-1">
+                <td colspan="6">A马列主义毛泽东思想</td>
+            </tr>
+            <tr class="tr-2">
+                <td>00001</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00002</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00003</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00004</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr class="tr-1">
+                <td colspan="6">B哲学哲学哲学哲学哲学哲学哲学</td>
+            </tr>
+            <tr>
+                <td>00001</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00002</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00003</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00004</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00005</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+        </tbody>
+        
+        <tfoot></tfoot>
+        
+    </table>
+
+
+	<!--案例2-->
+    <table class="table-11">
+    	<caption>2007全国非邮发报刊联合征订目录</caption>
+        
+        <thead>
+            <tr>
+                <th>代号</th>
+                <th>刊名</th>
+                <th>刊期</th>
+                <th>出版地</th>
+                <th>年定价</th>
+                <th>CN号</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr class="tr-1">
+                <td colspan="6">A马列主义毛泽东思想</td>
+            </tr>
+            <tr>
+                <td>00001</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00002</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00003</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00004</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+        </tbody>
+            
+            
+        <tbody>
+            <tr class="tr-1">
+                <td colspan="6">B哲学哲学哲学哲学哲学哲学哲学</td>
+            </tr>
+            <tr>
+                <td>00001</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00002</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00003</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00004</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+            <tr>
+                <td>00005</td>
+                <td>马列主义毛泽东思想</td>
+                <td>月刊</td>
+                <td>北京</td>
+                <td>144.0</td>
+                <td>11-3911</td>
+            </tr>
+        </tbody>
+        
+        <tfoot></tfoot>
+        
+    </table>
+        
+</body>
+</html>

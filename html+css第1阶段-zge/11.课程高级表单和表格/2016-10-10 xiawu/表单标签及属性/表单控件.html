@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表单控件</title>
+<style type="text/css">
+	
+	* { margin:0; padding:0;}
+	textarea { width:300px; height:300px;}
+
+</style>
+
+
+</head>
+
+<body>
+
+	<form method="get" action="target.html" name="form1">
+    	文本框：<input type="text" value="我是文本框" name="txt" /><br />
+        密码框：<input type="password" value="" name="pass"/><br />
+        重置按钮： <input type="reset" /><br />
+        空按钮：<input type="button" value="空按钮" id="but"/><br />
+        单选按钮组:<input type="radio" name="rad" value="男" />男&nbsp;<input type="radio" name="rad" checked="checked" value="女" />女<br />
+        复选框:<input type="checkbox" name="lanqiu"/>篮球&nbsp;<input type="checkbox" name="jita" checked/>吉他&nbsp;<input type="checkbox" name="LOL"/>LOL&nbsp;<input type="checkbox" name="LOL" disabled/>挑食<br />
+        
+        表单域下拉列表（菜单）：<select><option>一年级</option><option>二年级</option><option>三年级</option></select><br />
+        <textarea></textarea><br />
+        提交按钮：<input type="submit" value="提交" /><br />
+        
+    </form>
+    
+</body>
+</html>

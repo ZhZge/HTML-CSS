@@ -1,0 +1,4 @@
+zoom: 1 IE专有属性  触发了ie6 7 专有的 haslayout
+
+是为了兼容IE早期的浏览器，所以用 zoom: 1 代表这个 div 是有高度宽度的
+效果跟 overflow: hidden 可以装载浮动物件一样

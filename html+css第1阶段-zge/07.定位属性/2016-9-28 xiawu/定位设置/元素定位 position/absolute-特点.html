@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>absolute-特点</title>
+<style type="text/css">
+
+	
+	
+	/* absolute 绝对定位 -- 浮动层 left:0; top:0;  会根据html为参照物初始定位， 不占据空间 */
+	
+	
+	/* 特点： 一旦一个盒子设置了绝对定位，它会首先找离它最近的父元素，看最近的父元素是否设置了定位属性，如果所有包含它的父元素都没有设置定位属性，那它会以html为参照物定位。   如果离它最近的父元素有定位属性，那它会以最近的设置了定位属性的父元素为参照物定位 */
+	
+	.boxbox { width:500px; height:500px; background:orange; position:relative; float:left; }
+	
+	.box { width:300px; height:300px; background:red; position:absolute; top:20px; left:20px;}
+	
+	.box1 { width:200px; height:200px; background:yellow; position:absolute; left:0; top:0;}
+	
+	
+	.boxbox1 {width:300px; height:500px; background:green;float:left; }
+</style>
+</head>
+<body>
+
+
+<div class="boxbox">
+	父元素
+	<div class="box">
+    子元素
+    
+        
+    </div>
+
+</div>
+
+<div class="boxbox1"></div>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	* { margin:0; padding:0;}
+	#box { width:500px; height:300px; border:1px solid red; margin:20px auto;}
+	
+	#box .c-1 { width:500px; height:282px; background:red;}
+	#box .c-2 { width:500px; height:282px; background:green;}
+	#box .c-3 { width:500px; height:282px; background:yellow;}
+	
+</style>
+
+<script type="text/javascript">
+	window.onload = function(){
+		var oBox = document.getElementById("box");
+		var aA = oBox.getElementsByTagName("a");
+		var oCon = document.getElementById("box-content");
+		var aDiv = oCon.getElementsByTagName("div");
+		var num = 0;
+		
+		for (var i=0;i<aDiv.length;i++){
+			aDiv[i].style.display = "none";
+		}
+		
+		aDiv[num].style.display = "block";
+		
+		for (var i=0;i<aA.length;i++){
+			aA[i].index = i;
+			aA[i].onmouseover= function(){
+				for (var i=0;i<aA.length;i++){
+					aA[i].style.color = "";
+					aDiv[i].style.display = "none";
+				}			
+				this.style.color = "red";	
+				aDiv[this.index].style.display = "block";	
+			}
+		}		
+		
+	}
+
+
+	
+</script>
+</head>
+
+<body>
+
+	<div id="box">
+
+    	<div class="box-a">
+        	<a href="#">切换一</a>
+            <a href="#">切换二</a>
+            <a href="#">切换三</a>
+        </div>
+        
+        <div id="box-content">
+        
+        	<div class="c-1">内容一</div>
+            <div class="c-2">内容二</div>
+            <div class="c-3">内容三</div>
+        
+        </div>
+    
+    
+    </div>
+    
+    
+    
+    
+</body>
+</html>

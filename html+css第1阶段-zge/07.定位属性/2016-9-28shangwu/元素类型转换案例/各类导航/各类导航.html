@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>各类导航</title>
+<style type="text/css">
+	
+	* { margin:0; padding:0;}
+	ul,li { list-style:none;}
+	a { text-decoration:none;}
+	body { font-size:14px;}
+	
+	.ul-1 { width:1100px; height:44px; background:#9c0001; margin:40px auto;}
+	.ul-1 li { float:left; border-right:1px solid #000; margin-right:1px;}
+	.ul-1 li a { color:#000; display:block; height:36px; line-height:36px; padding:0 34px; border-top-width:5px; border-top-style:solid; border-top-color:#ffff00; /* ==> 简写 border:5px solid #ffff00*/ background:#ff6100;}
+	
+	.ul-1 li a:hover { border-top-color:#9c0001; color:yellow; background:#000;}
+	
+	/* a:hover 开始是继承a的样式， 然后再覆盖 */
+	
+	
+	
+	.ul-2 { width:1100px; height:49px; border-bottom:1px solid #000; margin:40px auto;}
+	.ul-2 li { float:left; margin-right:13px;}
+	.ul-2 li a { display:block; color:#0069cd; height:44px; line-height:44px; border:1px solid #ccc; border-bottom:0; margin-top:4px; padding:0 19px; background:#f7f7f7;}
+	
+	.ul-2 li a:hover { height:48px; line-height:48px; margin-top:0; background:#fff; border-color:#000;}
+	
+	
+	.ul-3 { width:1100px; height:37px; border-bottom:6px solid #d85016; margin:40px auto;}
+	.ul-3 li { float:left; margin-right:1px;}
+	.ul-3 li a { display:block; height:37px; line-height:37px; width:96px; background:#ccc; text-align:center; color:#000;}
+	.ul-3 li a em { font-style:normal; display:none;}
+	
+	.ul-3 li a:hover { background:#d85016; color:#fff;}
+	.ul-3 li a:hover em { display:block;} 
+	.ul-3 li a:hover span { display:none;} /* hover 子元素同时改变样式 */
+	
+	
+	.ul-4 { width:1100px; height:53px; margin:40px auto; background:url(images/ul-4-bg.gif) repeat-x left bottom;}
+	.ul-4 li { float:left;}
+	.ul-4 li a { display:block; height:36px; line-height:36px; margin-top:5px; padding:0 18px; color:#000;}
+	.ul-4 li a:hover { height:42px; line-height:46px; background:#fae75c; margin-top:0; color:#fff;}
+	
+</style>
+</head>
+
+<body>
+
+
+    <ul class="ul-1">
+    	<li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+    </ul>
+    
+    
+    <ul class="ul-2">
+		<li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>    	
+    </ul>
+    
+    <ul class="ul-3">
+    	<li><a href="#"><span>home</span><em>首页</em></a></li>
+        <li><a href="#"><span>home</span><em>首页</em></a></li>
+        <li><a href="#"><span>home</span><em>首页</em></a></li>
+        <li><a href="#"><span>home</span><em>首页</em></a></li>
+        <li><a href="#"><span>home</span><em>首页</em></a></li>
+        <li><a href="#"><span>home</span><em>首页</em></a></li>
+        <li><a href="#"><span>home</span><em>首页</em></a></li>
+    </ul>
+    
+    <ul class="ul-4">
+		<li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>     	
+    </ul>
+    
+    
+</body>
+</html>
